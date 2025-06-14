@@ -1,11 +1,1 @@
-import React from "react";
-
-export type MyButtonProps = {
-  label: string;
-};
-
-export const MyButton: React.FC<MyButtonProps> = ({ label }) => {
-  return <button>{label}</button>;
-};
-
-export default MyButton;
+export * from "./components/SongEditor";
