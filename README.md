@@ -1,8 +1,10 @@
 # React-Song-Editor
 
-A test package to play with publishing the song editor component.
+Playing with publishing the song editor component from https://ramblepad.app.
 
 # Development
+
+WIP.
 
 ## Local development
 
