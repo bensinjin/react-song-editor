@@ -1,1 +1,2 @@
-export * from "./components/SongEditor";
+export { SongEditor } from "./components/SongEditor";
+export * from "./types";

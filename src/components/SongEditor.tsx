@@ -1,5 +1,5 @@
-export type SongEditorProps = {};
+export type SongEditorProps = { name: string };
 
-export function SongEditor(props: SongEditorProps) {
-  return <div>Song Editor</div>;
+export function SongEditor({ name }: SongEditorProps) {
+  return <div>Song Editor! {name}</div>;
 }

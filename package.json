@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "build": "tsup src/index.tsx --dts --format cjs,esm",
-    "dev": "tsup src/index.tsx --watch",
+    "dev": "tsup src/index.tsx --watch --dts --format cjs,esm",
     "clean": "rm -rf dist"
   },
   "peerDependencies": {
